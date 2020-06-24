@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../images/back01.jpg");
+}
+.signature{
+    color: whitesmoke;
+}
+.top—title
+{
+    color: whitesmoke;
+    float: left;
+}
+
+#container
+{
+    margin: 0 auto;
+}
+#photo{
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+#header{
+    width: 1920px;
+    height:40px ;
+    background-color: #ff8c00;
+}
+#topnav{
+    width: 800px;
+    margin: 0 auto;
+}
+#topblank1{
+    width: 1000px;
+    height: 120px;
+    margin: 0 auto;
+}
+#title{
+    font-family: 黑体;
+    color: darkorange;
+}
+#topblank2{
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+}
+.nav
+{
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav:hover
+{
+    text-decoration-line: underline;
+}
+#content
+{
+    width: 1000px;
+    height:700px;
+    margin: 0 auto;
+}
+img.t-pic{
+    border-radius: 30em;
+    height:140px;
+    width: 140px;
+    -webkit-border-radius: 30em;
+    -moz-border-radius: 30em;
+    -o-border-radius: 30em;
+    -ms-border-radius: 30em;
+    border: 3px solid #FFF;
+    box-shadow: 0px 5px 4px #999;
+    -webkit-box-shadow: 0px 5px 4px #999;
+    -moz-box-shadow: 0px 5px 4px #999;
+    -o-box-shadow: 0px 5px 4px #999;
+    -ms-box-shadow: 0px 5px 4px #999;
+    float: left;
+}
+#aside
+{
+    font-size: 0;
+    float: left;
+    width: 150px;
+    height: 280px;
+    background-color: antiquewhite;
+    margin: 0  auto;
+    text-align: center;
+    margin-right: 30px;
+}
+.side
+{
+    width: 150px;
+    display: block;
+    text-decoration-line: none;
+    padding-bottom: 5px;
+    padding-top: 5px ;
+    height: 35px;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+.side:hover{
+    background-color: white;
+    border-bottom:  1.5px solid orange;
+}
+#main
+{
+
+    width: 700px;
+    height: 700px;
+    float: left;
+    background-color: wheat;
+    margin: 0 auto;
+    text-align: center;
+}
+#wall{
+    margin: 0 auto;
+}
+.phs1{
+    height: 108px;
+    width: 192px;
+    border-bottom: 2px solid white;
+    display:inline-block;
+    margin:10px 5px 0px;
+}
+.phs{
+    display: inline-block;
+}
+#footer
+{
+    height: 30px;
+    width: 2000px;
+    background-color: deepskyblue;
+    text-align: center;
+    color: white;
+}
+a{
+    text-decoration-line: none;
+}

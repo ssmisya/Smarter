@@ -1,0 +1,320 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>主页|欢迎来到SMARTER!</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		 <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<meta name="viewport" content="width=device-width, initial-scale=1"charset="UTF-8">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<!----- start-header---->
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="#">Smarter</a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li class="active"><a href="#home" class="scroll">主页</a></li>
+								<li class="page-scroll"><a href="#work" class="scroll">服务</a></li>
+								<li class="page-scroll"><a href="#team" class="scroll">团队</a></li>
+								<li class="page-scroll"><a href="#contact" class="scroll">联系我们</a></li>
+								<li ><a href="login.html" >登录</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!----banner---->
+			<div class="banner text-center">
+				<div class="container">
+					<div class="banner-info">
+						<h1><span>let us make</span> your classes smarter</h1>
+						<p>我们专注于打造一个简洁的、舒适的、友好的课堂教学环境</p>
+						<label class="page-scroll"><a class="big-btn scroll" href="#work1"><span> </span></a></label>
+					</div>
+				</div>
+			</div>
+			<!--//banner---->
+			<!---work--->
+			<div id="work" class="work">
+				<div id="work1" class="container">
+					<div class="head-one text-center">
+						<h2>我们的服务</h2>
+						<span> </span>
+						<p>您可以在这里选择需要进行的内容</p>
+					</div>
+					<!---works--->
+					<!---images-hover-effects--->
+					<script src="js/jquery.hoverGrid.js"></script>
+					<link rel="stylesheet" type="text/css" href="css/jquery.hoverGrid.css">
+					<script type="text/javascript">
+					    $(document).ready(function() {
+					      $('#whatever').hoverGrid();
+					    });
+					</script>
+					<!---images-hover-effects--->
+					<div class="works">
+							<div id="whatever">
+								<div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/w1.png" title="name" />
+								        <div class="caption" style="display: none;">
+											<h2>我的设备</h2>
+											<p>点击查看账户内设备的运行情况</p>
+								        </div>
+								    </div>
+							    </div>  
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+										<img  src="images/w2.png" title="name" />
+										<a href="个人主页.php"><div class="caption" style="display: none;">
+											 <h2>个人空间</h2>
+												<p>进入个人空间来查看板书作品</p>
+										</div></a>
+								    </div>  
+							    </div>    
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/w3.png" title="name" />
+								        <div class="caption" style="display: none;">
+											<h2>社区</h2>
+											<p>进入社区来欣赏其他人的板书作品！</p>
+
+								        </div>
+								    </div>  
+							    </div>    
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/w4.jpg" title="name" />
+								        <div class="caption" style="display: none;">
+								            <h2>使用指南</h2>
+								            <p>点击以查看使用方法！</p>
+								        </div>
+								    </div>  
+							    </div>    
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/w5.jpg" title="name" />
+								        <div class="caption" style="display: none;">
+								            <h2>功能介绍</h2>
+								            <p>新版本的功能有什么？进来看看吧！</p>
+								        </div>
+								    </div>  
+							    </div>    
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/w6.jpg" title="name" />
+								        <div class="caption" style="display: none;">
+								            <h2>Q & A</h2>
+								            <p>你想要问的问题都在这里！</p>
+								        </div>
+								    </div>  
+							    </div>    
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/w7.png" title="name" />
+								        <div class="caption" style="display: none;">
+								            <h2>网站信息</h2>
+								            <p>点击以查看此网站的底细</p>
+								        </div>
+								    </div>  
+							    </div>    
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/w8.jpg" title="name" />
+								        <div class="caption" style="display: none;">
+								            <h2>联系我们</h2>
+								            <p>有问题？跟我们讲！</p>
+								        </div>
+								    </div>  
+							    </div>    
+							    <div class="col-md-4 work-grid">
+								    <div class="item">
+								        <img  src="images/w9.jpg" title="name" />
+								        <div class="caption" style="display: none;">
+								            <h2>赞助我们</h2>
+								            <p>钱多没地方花？来投资吧！</p>
+								        </div>
+								    </div>  
+							    </div>  
+							    <div class="clearfix"> </div>               
+							</div>
+					</div>
+					 <div class="clearfix"> </div>   
+					</div>
+				</div>
+					<!---//works--->
+					<!---team--->
+					<div id="team" class="team">
+						<div class="container">
+							<div class="head-one text-center team-head">
+								<h2>制作团队</h2>
+								<span> </span>
+								<p>我们是一个业余的，热爱开发与制作的学生团队，致力于智能设备的研究与开发，极简大家的生活！</p>
+							</div>	
+							<!----team-members---->
+							<div class="team-members">
+								<div class="col-md-3">
+									<div class="team-member text-center">
+										<img class="t-pic" src="images/userphotos/1190200604.jpg" title="SMY" />
+										<h3>Quentin</h3>
+										<span>主要开发成员</span>
+										<ul class="t-social unstyled-list list-inline">
+											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="dribbble" href="#"><span> </span></a></li>
+											<li><a class="in" href="#"><span> </span></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="team-member text-center">
+										<img   class="t-pic" src="images/userphotos/1190200601.bmp" title="HMC" />
+										<h3>McHayato</h3>
+										<span>主要开发成员</span>
+										<ul class="t-social unstyled-list list-inline">
+											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="dribbble" href="#"><span> </span></a></li>
+											<li><a class="in" href="#"><span> </span></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="team-member text-center">
+										<img class="t-pic" src="images/userphotos/1190200605.jpg" title="ZB" />
+											<h3>COOL阿波</h3>
+										<span>主要开发成员</span>
+										<ul class="t-social unstyled-list list-inline">
+											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="dribbble" href="#"><span> </span></a></li>
+											<li><a class="in" href="#"><span> </span></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="team-member text-center">
+										<img class="t-pic" src="images/userphotos/1190200607.bmp" title="WH" />
+										<h3>雷泽</h3>
+										<span>主要开发成员</span>
+										<ul class="t-social unstyled-list list-inline">
+											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="dribbble" href="#"><span> </span></a></li>
+											<li><a class="in" href="#"><span> </span></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<!----//team-members---->
+						</div>
+					</div>
+					<!---//team--->
+					<!---Contact--->
+					<div id="contact" class="contact">
+						<div class="container">
+							<div class="head-one text-center">
+								<h2>联系我们</h2>
+								<span> </span>
+							</div>
+							<div class="contact-grids">
+								<div class="col-md-5 contact-map">
+								<p>我们在哪？</p>
+									<iframe src="images/hagongdaditu.png"></iframe>
+								</div>
+								<div class="col-md-7 contact-form">
+								<p>想联系我们？请在下面给我们留言！</p>
+								<form>
+									<textarea>来写下一条留言吧！</textarea>
+									<input type="text" value="Your@mail.com">
+									<input type="submit" value="发送" />
+								</form>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<!---//Contact--->
+					<!---footer--->
+					<div class="footer">
+						<div class="container">
+							<div class="footer-left">
+								<p>版权所有</p>
+							</div>
+							<div class="footer-right">
+								<p>哈尔滨工业大学216小组</p>
+								<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<!---//footer--->
+				</div>
+			</div>
+	<div></div>
+	</body>
+</html>
